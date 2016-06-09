@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context displayName="JSP Servlet Example" docBase="example" path="/example" reloadable="true">
+
+ <Resource name="jdbc/TestSQLServer"  type="javax.sql.DataSource"
+               maxTotal="5" maxIdle="3" maxWaitMillis="5000"
+               username="sa" password="p@ssw0rd" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+               url="jdbc:sqlserver://10.211.55.10:1433;databaseName=java"/>
+               
+</Context>       
